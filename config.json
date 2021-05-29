@@ -1,0 +1,79 @@
+{
+	"title": "CloudsDale",
+	"discordLink": "https://discord.gg/5zTSKFPdUN",
+	"twitterLink": "<LINK_TO_TWITTER>",
+	"contactEmail": "Wonderboltpro@gmail.com",
+	"contactDiscord": "DerpysTown#1416 or Arc Flash#7436",
+	"port": 8091,
+	"adminPort": 92,
+	"host": "https://cloudsdale.sparklebot.nl",
+	"local": "localhost:8091",
+	"adminLocal": "localhost:92",
+	"proxy": true,
+	"secret": "SH5CvKTRTwBpKUkjwYCFr2H127wA1mN1bVZj/ar/lHjWk+vwU46pmazKJIhhCumTyoS+dXNp6uMHuUXo/bRZQQ==",
+	"token": "BU7O+iP6bm5BF8Ng3peNeZUXcoz9uhF81Ci9qZiODm6aqPiaYt2byvOGN/GdSREhf2yYtfnQezkqXHRosEnggA==",
+	"db": "mongodb://<username>:<password>@localhost:27017/<database_name>",
+	"oauth": {
+	
+	    "facebook": {
+            "clientID": "-",
+            "clientSecret": "-",
+            "graphApiVersion": "v4.0"
+        },
+		
+		"google": {
+			"clientID": "-",
+			"clientSecret": "-"
+		},
+		
+		"discord": {
+            "clientID": "-",
+            "clientSecret": "-"
+        }
+	},
+	"assetsPath": "assets-source",
+	"season": "spring",
+	"holiday": "none",
+	"servers": [
+		{
+			"id": "18+",
+			"port": "8098",
+			"path": "/s00/ws",
+			"local": "localhost:8098",
+			"name": "cloudsdale 18+ server",
+			"alert": "18+",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "everything is allowed, have fun!!!!",
+			"flags": {
+				"editor": true
+			}
+		},
+		{
+			"id": "safe",
+			"port": "8099",
+			"path": "/srv/s09/ws",
+			"local": "localhost:8099",
+			"name": "cloudsdale server",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "keep this server PG!!!",
+			"flags": {
+				"editor": true
+			}
+		},
+		{
+			"id": "events",
+			"port": "8077",
+			"path": "/events/ws",
+			"local": "localhost:8077",
+			"name": "cloudsdale event server",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "a server for events",
+			"flags": {
+				"editor": true
+			}
+		}
+	]
+}
